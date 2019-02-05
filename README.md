@@ -5,3 +5,6 @@ The main goal of it, is to hit on of the four corners perfectly so it bounces st
 # What is included
 - Runnable .jar-File
 - The code as .java-File
+
+# How it works
+The jar file creates a Window which will cover your whole screen and does not have a windowbar. Therefor press the Escape-Key to close the Window and shutdown the program.
