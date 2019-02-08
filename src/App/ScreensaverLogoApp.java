@@ -27,7 +27,7 @@ public class ScreensaverLogoApp extends Application {
 
 	public static int w;
 	public static int h;
-	public double speed;
+	public final double speed = 5;
 	Canvas canvas;
 	ImageView img;
 	ColorAdjust colorAdjust = new ColorAdjust();
@@ -43,20 +43,17 @@ public class ScreensaverLogoApp extends Application {
 		h = (int) screenBounds.getHeight();
 		Scene scene = new Scene(canvas, w, h, Color.BLACK);
 
-		Random r = new Random();
 		// initialize DVD-Logo and place in Scene
+		Random r = new Random();
 		img = new ImageView(new Image("DVD_Logo.png"));
 		Bounds imgBnd = img.getBoundsInLocal();
 		int scaledWidth = (int) (imgBnd.getWidth() * 0.15);
 		int scaledHeight = (int) (imgBnd.getHeight() * 0.15);
 		img.setFitWidth(scaledWidth);
 		img.setFitHeight(scaledHeight);
-		img.relocate(400, 400);
+		img.relocate(r.nextInt(600) + 200, r.nextInt(600) + 200);
 		setRandomLogoColor();
 		canvas.getChildren().add(img);
-
-		// speed of the object
-		speed = 5;
 
 		// Setting up the Stage
 		primaryStage.setTitle("DVD-Screensaver");
