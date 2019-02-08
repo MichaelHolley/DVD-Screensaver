@@ -3,6 +3,7 @@ This is a simple Applet which copies the style of the well-known and memed DVD-S
 The main goal of it is to hit on of the four corners perfectly so it bounces straight back. Normally this happens in a 4:3 Window but I just made it Fullscreen, because why not.
 
 # What is included
+- A simple version for a bouncing Square/Object in JavaScript (just a tryout by me)
 - Runnable .jar-File
 - The code as .java-File
 
