@@ -51,7 +51,7 @@ public class ScreensaverLogoApp extends Application {
 		int scaledHeight = (int) (imgBnd.getHeight() * 0.15);
 		img.setFitWidth(scaledWidth);
 		img.setFitHeight(scaledHeight);
-		img.relocate(r.nextInt(600) + 200, r.nextInt(600) + 200);
+		img.relocate(r.nextInt(400) + 100, r.nextInt(400) + 100);
 		setRandomLogoColor();
 		canvas.getChildren().add(img);
 
@@ -106,7 +106,7 @@ public class ScreensaverLogoApp extends Application {
 		colorAdjust.setContrast(0);
 		colorAdjust.setHue(r.nextDouble() * 2 - 1);
 		colorAdjust.setBrightness(0);
-		colorAdjust.setSaturation(r.nextDouble() * 2 - 1);
+		colorAdjust.setSaturation(1);
 		img.setEffect(colorAdjust);
 	}
 
