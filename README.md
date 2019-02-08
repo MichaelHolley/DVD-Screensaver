@@ -1,6 +1,6 @@
 # Java_DVD-Screensaver
 This is a simple Applet which copies the style of the well-known and memed DVD-Screensaver logo/video, which bounces on a black screen, changing its color when hitting a corner.
-The main goal of it is to hit on of the four corners perfectly so it bounces straight back. Normally this happens in a 4:3 Window but I just made it Fullscreen, because why not.
+The main goal of it is to hit on of the four corners perfectly so it bounces straight back.
 
 # What is included
 - A simple version for a bouncing Square/Object in JavaScript (just a tryout by me)
@@ -9,6 +9,3 @@ The main goal of it is to hit on of the four corners perfectly so it bounces str
 
 # How it works
 The jar file creates a Window which will cover your whole screen and does not have a windowbar. Therefor press the Escape-Key to close the Window and shutdown the program.
-
-# What will be next
-- DVD-Logo as an alternative to text
