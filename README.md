@@ -3,7 +3,7 @@ This is a simple Applet which copies the style of the well-known and memed DVD-S
 The main goal of it is to hit on of the four corners perfectly so it bounces straight back.
 
 # Preview
-![Preview](DVD_ScreensaverPreview.gif)
+![Preview](DVD_Screensaver.gif)
 
 # What is included
 - Runnable .jar-File
