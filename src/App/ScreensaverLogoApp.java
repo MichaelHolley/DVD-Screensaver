@@ -39,7 +39,7 @@ public class ScreensaverLogoApp extends Application {
 		// get ScreenSize and set AppWindowSize to make it Fullscreen
 		Screen screen = Screen.getPrimary();
 		Rectangle2D screenBounds = screen.getVisualBounds();
-		w = (int) screenBounds.getWidth() * 3 / 4;
+		w = (int) screenBounds.getWidth();
 		h = (int) screenBounds.getHeight();
 		Scene scene = new Scene(canvas, w, h, Color.BLACK);
 
@@ -62,7 +62,7 @@ public class ScreensaverLogoApp extends Application {
 		primaryStage.show();
 
 		// Using Timeline to animate the Object(text)
-		Timeline timeline = new Timeline(new KeyFrame(Duration.millis(20), new EventHandler<ActionEvent>() {
+		Timeline timeline = new Timeline(new KeyFrame(Duration.millis(20), new EventHandler<>() {
 
 			// object-motion speed values
 			double dx = speed; // Step on x
@@ -110,7 +110,7 @@ public class ScreensaverLogoApp extends Application {
 		img.setEffect(colorAdjust);
 	}
 
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		launch(args);
 	}
 
