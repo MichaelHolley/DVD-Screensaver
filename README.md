@@ -4,10 +4,3 @@ The main goal of it is to hit on of the four corners perfectly so it bounces str
 
 ## Preview
 ![Preview](DVD_Screensaver.gif)
-
-## What is included
-- Runnable .jar-File
-- the code
-
-# How to use
-The jar file creates a Window which will cover your whole screen and does not have a windowbar. Therefor press the Escape-Key to close the Window and shutdown the program.
